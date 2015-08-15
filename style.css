@@ -10,7 +10,7 @@ h1{color:#8A975B;line-height: 71px;float: left;}
 h2{color:red;}
 h3{color:blue;}
 h4{color:orange;}
-body{background: url(img/bkg-body.png) repeat;}
+body{background: url(img/bkg.png) repeat;}
 a{ color:#0072bc; cursor:pointer; text-decoration:none;}
 a:hover{ text-decoration:underline;}
 button,input,select,textarea{ font-family:Arial,Verdana,sans-serif; font-size:12px;}
@@ -34,19 +34,37 @@ button,input,select,textarea{ font-family:Arial,Verdana,sans-serif; font-size:12
 
 .header{background-color: #404040; height: 35px; }
 
-.logo{background: url(img/logo.png) no-repeat; display: block; height: 90px; width: 90px; float: left;}
+.logo{background: url(img/logo.png) no-repeat; display: block; height: 54px; width: 89px; float: left; line-height: 54px;}
 
 .menu{width: 290px; margin-left: 283px}
 
-.menu ul li {float: left; padding-right: 23px; line-height: 35px;}
+.menu ul li {float: left; padding-right: 23px;}
 
-.menu ul li a{text-decoration: none; font-family: 'Lobster14Regular'; font-size: 18px; color: #f6f6f6}
+.menu ul li a{text-decoration: none; font-family: 'Lobster14Regular'; line-height: 35px; font-size: 18px; color: #f6f6f6}
 
+.content{width: 670px; float: left;}
 
+.content-header{background: url(img/bkg-header.png) no-repeat; width: 670px; height: 42px;}
 
+.content-content{background: url(img/bkg-content.png) repeat-y; width: 670px;}
 
+.content-footer{background: url(img/bkg-footer.png) no-repeat; width: 670px; height: 42px;}
 
+.content-blog p {font-family: 'calibri'; font-size: 14px; color: #404040; line-height: 20px; width: 590px; text-align: justify;}
 
+.content-blog{padding:0 40px 5px 40px;}
 
+.vignette{background: url(img/bkg-vignette.png) no-repeat; width: 612px; height: 317px; margin-left: 30px; position: relative;}
 
+.preview{position: absolute; right: 12px; bottom: 13px;}
+
+.title-blog{width: 600px; float: left; height:70px;  line-height: 80px;}
+
+.title-blog h1 a{font-family: 'Lobster14Regular'; font-size: 30px; color: #404040; text-decoration: none; float: left;}
+
+.nbcomm{background: url(img/bkg-nbcomm.png) no-repeat; font-family: Arial;font-size: 12px;color:#FFF;display: block;width:28px;height: 31px;float:right;line-height: 20px;padding-left: 7px;margin-top: 24px;}
+
+.date p{ font-family: 'calibri'; font-size: 10px; color: #404040; text-align: right; font-style: italic; padding-bottom: 12px;}
+
+.more{background: url(img/bkg-btn-more.png); display: block; text-align: center; width: 595px; height: 46px; line-height: 37px; font-family: 'Lobster14Regular'; font-size: 18px; color: #aaaaaa;}
 
